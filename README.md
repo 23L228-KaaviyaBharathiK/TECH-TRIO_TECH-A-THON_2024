@@ -36,4 +36,4 @@ Acknowledgments
 
 Contact
 - Kaaviya Bharathi K: Mail ID : 23l228@psgtech.ac.in
-- GitHub:@23L228KaaviyaBharathiK
+- GitHub: https://github.com/23L228-KaaviyaBharathiK
