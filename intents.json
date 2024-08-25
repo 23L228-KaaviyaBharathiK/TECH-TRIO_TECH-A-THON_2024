@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello again"],
+            "responses": ["Hi there!", "Hello! How can I help you?", "Hey!", "Welcome back!", "Hi again!"]
+        },
+        {
+            "tag": "anxiety",
+            "patterns":["Hey, I'm feeling anxious", "Anxiety envelops me from all sides", "I am concerned about matters", "I am feeling anxious"],
+            "responses":["Anxiety can feel overwhelming, but there are strategies we can try to help calm your mind."]
+        },
+        {
+            "tag": "anxiety_tips",
+            "patterns": ["Can you give some tips to reduce my anxiexty?", "How to reduce my anxiety?"],
+            "responses": ["Try deep breathing exercises, Practice progressive muscle relaxation, Remind yourself that you're safe", "Take a break and do something you enjoy, Reach out to a friend or loved one"]
+        },
+        {
+            "tag": "depression",
+            "patterns":["Hey, I'm feeling depressed", "I'm feeling sad", "I'm feeling hopeless", "I don't want to do anything", "I'm feeling down", "I'm feeling empty"],
+            "responses":["It's important that you're recognizing these feelings. Depression can be really challenging, but you don't have to go through it alone. I'm here to listen and help you find ways to cope."]
+        },
+        {
+            "tag": "depression_tips",
+            "patterns": ["Can you give me tips to overcome my depression?", "Could you provide me with advice on how to cope with my depression?"],
+            "responses": ["Try to get some sunlight, Engage in a hobby you enjoy, Reach out to a friend or loved one", "Practice self-care, Remind yourself that you're not alone"]
+        },
+        {
+            "tag": "stress",
+            "patterns": ["I'm feeling overwhelmed", "I have too much work to do", "I'm feeling burned out", " Hey, I'm feeling stressed", " I neeed help managing my time"],
+            "responses": ["Oh! you're feeling stressed. Work stress can really take a toll on you. Let’s explore some ways to manage it, like breaking tasks into smaller steps or taking regular breaks. Would you like some tips on how to handle this?"]
+        },
+        {
+            "tag": "stress_tips",
+            "patterns":["How to reduce my stress level?", "Can u give me some tips to reduce my stress?"],
+            "responses":["Take a break and do something you enjoy, Prioritize your tasks, Practice time management techniques", "Delegate tasks when possible, Take care of yourself, Try deep breathing exercises", "Practice progressive muscle relaxation, Exercise regularly"]
+        },
+        {
+            "tag": "mood booster",
+            "patterns": ["I need a pick-me-up", "I'm feeling down", "I want to feel happy", "I need a mood boost", " Hey, I'm feeling sad", "I feel disheartened", "I feel remorse for certain actions", "I regret things", "I am dejected"],
+            "responses": ["I'm sorry to hear that you're feeling this way. It's okay to feel sad, and it's important to take care of yourself during these times. I can help you out by providing some tips."]
+        },
+        {
+            "tag": "mood_booster_tips",
+            "patterns":["How can I lift my mood?", "What can i do to feel better?", "How to improve my mood?",  "How can I shake off this bad mood?"],
+            "responses":["Watch a funny video, Listen to uplifting music, Read a motivational quote", "Do something you love, Practice gratitude, Connect with nature! Spend some time outside and soak up some sunlight.", "Get enough sleep, Try meditation, Practice positive self-talk."]
+        },
+        {
+            "tag": "sleep",
+            "patterns": ["I'm having trouble sleeping", "I'm feeling tired", "I need help relaxing", "I'm having insomnia", "I need to wind down", "Hey Im feeling exhausted"],
+            "responses": ["It sounds like you're running on empty. Exhaustion can really wear you down. Let's talk about how you can rest and recover. Maybe we can find some small changes to help you feel more energized."]
+        },
+        {
+            "tag":"sleep_tips",
+            "patterns":["How can I improve my sleep?", "I'm struggling to fall asleep, help!", "What are some tips for better sleep?", "I'm tired all the time, what can I do?", "How can I get more restful sleep?"],
+            "responses":["Try progressive muscle relaxation, Practice deep breathing exercises, Avoid screens before bedtime", "Create a bedtime routine, Make your sleep environment comfortable, Eat nourishing foods, Try meditation"]
+        },
+        {
+            "tag": "self-care",
+            "patterns": ["I need to take care of myself", "I want to prioritize my well-being", "I need self-care ideas", "I'm feeling burned out", "I need to relax"],
+            "responses": ["Take a relaxing bath , Get a massage, Practice yoga or meditation", "Practice yoga or meditation, Read a book, Listen to calming music"]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["I need motivation", "I'm feeling unmotivated", "I want to achieve my goals", "I need inspiration", "I'm feeling stuck"],
+            "responses": ["Set small achievable goals, Create a to-do list, Remind yourself of your strengths", "Find an accountability partner, Celebrate your successes"]
+        },
+        {
+            "tag": "grounding techniques",
+            "patterns": ["I'm feeling disconnected", "I need to focus on the present", "I'm feeling overwhelmed", "I need to calm down", "I'm feeling anxious"
+            "responses": ["Practice grounding techniques, Focus on your five senses", "Try a mindfulness exercise, Take slow deep breaths, Notice your surroundings"]
+        },
+        {
+ 
+            "tag": "thanks_giving",
+            "patterns": ["Thankyou", "Thankyou for helping me out", "thanks", "thankyou", "Thankyou so much"],
+            "responses":["I'm glad to help you", "I'm always here to help you out", "If you have any questions or concerns about mental health, don't hesitate to reach out to me. I am confident that all problems can be resolved.", "Sure, if you need any help, feel free to ask.", "Welcome, its my duty to help you out."]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Have a great day", "Thanks for chatting"],
+            "responses": ["See you later!", "Goodbye!", "Have a great day!", "Thanks for chatting!", "Feel free to come back anytime"]
+        }
+    ]
+}
+
+
+
